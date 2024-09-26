@@ -1,4 +1,4 @@
-import express from "express"
+import  express from "express";
 import {config} from "dotenv"
 import cors from "cors"
 import cookieParser from "cookie-parser";
@@ -10,7 +10,9 @@ import messageRouter from "./router/messageRouter.js";
 const app = express();
 config({path : "./config/config.env"})
 
-
+app.get("/test", async (req , res ) => {
+    res.json({ message : "Hello!" })
+});
 app.use(cors({
     origin: [process.env.FRONTEND_URL, process.env.DASHBOARD_URL],
     method: ["GET", "POST", "PUT", "DELETE"],
