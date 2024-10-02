@@ -34,5 +34,4 @@ app.use("/api/v1/message", messageRouter);
 app.use("/api/v1/user", userRouter);
 
 dbConnection();
-
 export default app;
