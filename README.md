@@ -22,8 +22,8 @@ project-root/
 │   ├── server.js           # Entry point to start server
 │   └── passport.js         # Passport.js config for authentication
 │
-├── frontend/               # (Optional) Frontend client (React or others)
-├── dashboard/              # (Optional) Admin or Doctor dashboard
+├── frontend/               # Frontend client (ReactJs) 
+├── dashboard/              # Admin
 │
 ├── package.json
 └── .env
@@ -128,7 +128,7 @@ npm run dev
 - **Backend:** Node.js, Express.js,MongoDB, JWT, Passport
 - **Email:** Mailtrap
 - **Frontend:** React.js
-- **Dashboard:** React.js / Admin template
+- **Dashboard:** Admin template
 
 ---
 
